@@ -1,0 +1,126 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+display: flex;
+flex-direction: column;
+background-image: url('/cronometro/imagens/3.jpg');
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Rampart One', cursive;
+align-items: center;
+justify-content: center;
+justify-self: center;
+text-align: center;
+
+}
+
+.container{
+
+    margin-top: 5rem;
+font-size: x-large;
+font-weight: 900;
+
+width: 40rem;
+height: 30rem;
+opacity:25;
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.temporizadores{
+
+display: flex;
+
+width: 8rem;
+max-width: 8rem;
+align-items: center;
+text-align: center;
+justify-content: center;
+
+color:whitesmoke;
+gap:0.3rem;
+
+}
+
+.milisegundos{
+    font-size:medium;
+}
+
+
+
+
+.botoes{
+    margin-top: 1rem;
+display: flex;
+gap:0.7rem;
+transition: all 0.2s ease-in-out;
+}
+
+.botoes :hover{
+
+transform: scale(1.1);
+
+
+}
+
+
+
+.iniciar{
+    font-family: 'Rampart One', cursive;
+    background-color:rgba(255, 255, 255, 0.897);
+    font-size: medium;
+    font-weight:lighter;
+    width:5rem;
+    border-radius:8px;
+    border:1px solid rgb(0, 0, 0);
+    color:rgb(4, 0, 7);
+    background-color: greenyellow;
+}
+
+
+.pausar{
+    font-family: 'Rampart One', cursive;
+    background-color:rgb(248, 248, 248);
+    font-size: medium;
+    font-weight:lighter;
+    width:5rem;
+    border-radius:8px;
+    border:1px solid rgb(0, 0, 0);
+    color:rgb(4, 0, 7);
+    display: none;
+    background-color: rgb(29, 191, 202);
+
+
+}
+.resetar{
+  font-family: 'Rampart One', cursive;
+    background-color:rgb(248, 248, 248);
+    opacity: 1;
+    font-size: medium;
+    font-weight:lighter;
+    width:5rem;
+    border-radius:8px;
+    border:1px solid rgb(0, 0, 0);
+    color:rgb(5, 5, 5);
+background-color: rgb(247, 146, 99);
+
+}
+.continuar{
+font-family: 'Rampart One', cursive;
+    background-color:rgb(248, 248, 248);
+    opacity: 1;
+    font-size: medium;
+    font-weight:lighter;
+    width:6rem;
+    border-radius:8px;
+    border:1px solid rgb(0, 0, 0);
+    color:rgb(4, 0, 7);
+    display: none;
+background-color: blueviolet;
+
+}
