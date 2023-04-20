@@ -1,0 +1,374 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+}
+body{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    position:absolute;
+    gap:1rem;
+    background-color: #a19e9e7c;
+    }
+    
+    header{ 
+    display: flex;
+    width:100%;
+    height: 4rem;
+    background-color: rgb(180, 171, 171);
+    align-items: center;
+    justify-content:space-around;
+    padding: 1rem;
+    position: fixed;
+    z-index:100000;
+    opacity: 90%;
+    }
+    
+    header img{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    }
+    
+.menus ul{
+display:flex;
+list-style:none;
+gap:4em;
+text-shadow: 2px 2px 2px #000000,-2px 2px 2px #000000,2px -2px 2px #000000,-2px -2px 2px #000000;
+font-size: x-large;
+font-weight: 900;
+text-decoration:none;
+color: white;
+}
+
+.menus ul :hover{
+color:rgb(0, 0, 0);
+text-shadow: 2px 2px 2px #fcfcfc,-2px 2px 2px #ffffff,2px -2px 2px #fffdfd,-2px -2px 2px #ffffff;
+transition: 0.4s ease-in-out;
+transform: scale(1.2);
+text-decoration: none;
+}
+
+a:link{
+
+    text-decoration: none;
+
+}
+
+
+.menus ul li{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.menus input{
+    display: none;
+}
+
+    .home{
+    width: 99%;
+    height:100vh;
+    background-image: url('/abada/imagens/domingo.JPEG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    text-align: center;
+    }
+    
+    .chome{
+    padding: 5rem;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px #000,-2px 2px 2px #000,2px -2px 2px #000,-2px -2px 2px #000;
+    opacity:80%;
+    font-size: xx-large;
+    }
+
+
+    
+    .campanhas{
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        height:100vh;
+        align-items: center;
+        text-align: center;
+        border: 2px solid rgb(255, 47, 203);
+    }
+    
+    .icamp{
+    width:100%;
+    height:100vh;
+    background-image: url(./imagens/campanha/Arrecadaçao.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:2px solid rgb(255, 251, 0);
+    align-items: center;
+    position: relative;
+    }
+
+    .iconecampanha{
+position: absolute;
+width: 100%;
+height: 20%;
+top:50%;
+display: flex;
+justify-content: space-between;
+    }
+    
+    .iconecampanha button{
+margin:0 4rem;
+background-color: transparent;
+border: none;
+    }
+
+    .iconecampanha button i{
+color:white;
+        text-shadow: 3px 3px 3px #000,-3px 3px 3px #000,3px -3px 3px #000,-3px -3px 3px #000;
+        transition: 0.3s;
+        
+    }
+
+    .iconecampanha button i:hover{
+
+ transform: scale(1.1);
+ color: rgb(248, 99, 0);
+    }
+
+
+    
+    .icamp H1{
+        padding:5rem;
+        color:rgb(255, 255, 255);
+        text-shadow: 2px 2px 2px #000,-2px 2px 2px #000,2px -2px 2px #000,-2px -2px 2px #000;
+        opacity:70%;
+       font-size:50px;
+    }
+    .textcamp{
+    width: 100%;
+    height: 10%;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    background-color: #a19e9e7c;
+    }
+    .quemsomos{
+        display: flex;
+        flex-direction: column;
+        width:99%;
+        height:100vh;
+        align-items: center;
+        text-align: center;
+        border:2px solid red ;
+        margin-top: 3rem;
+    }
+    
+    .iquem{
+    width:100%;
+    height:90%;
+    background-image: url('/abada/imagens/Familia-abada.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(0, 255, 55);
+
+    }
+    
+    .iquem H1{
+        padding: 5rem;
+        color:white;
+        text-shadow: 2px 2px 2px #000,-2px 2px 2px #000,2px -2px 2px #000,-2px -2px 2px #000;
+        opacity:80%;
+        font-size: 50px;
+    }
+    .quemcamp{
+        width: 100%;
+        height:10%;
+        font-size: medium;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 400;
+        box-sizing: border-box;
+        background-color: #a19e9e7c;
+        border: 2px solid royalblue;
+    }
+    
+    
+    footer{
+        margin-top: 2rem;
+    width: 100%;
+    height: 6rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: center;
+    color:white;
+    border: 1px solid rgb(21, 255, 0);
+    }
+    
+    footer i{
+    
+    color: rgb(27, 185, 27);
+    
+    }
+.final{
+background-color:#000000;
+
+}
+.desenvolvido{
+font-size: smaller;
+}
+
+.final hr{
+
+background-color:white;
+color: azure;
+width: 100%;
+
+}
+
+
+@media (max-width:800px){
+
+body{
+width:100vw;
+display: flex;
+flex-direction: column;
+overflow-x: hidden;
+position: relative;
+gap:1rem;
+}
+
+header{ 
+display: flex;
+width:100%;
+height: 3rem;
+background-color: rgb(180, 171, 171);
+align-items: center;
+justify-content:space-around;
+padding: 1rem;
+position: fixed;
+z-index:100000;
+}
+
+header img{
+width: 40px;
+height: 30px;
+border-radius: 50%;
+}
+
+.home{
+width: 100%;
+height:100vh;
+background-image: url('/abada/imagens/domingo.JPEG');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+align-items: center;
+text-align: center;
+}
+
+.chome{
+padding: 5rem;
+color:white;
+text-shadow: 2px 2px 2px #000,-2px 2px 2px #000,2px -2px 2px #000,-2px -2px 2px #000;
+opacity:80%;
+}
+
+.campanhas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.icamp{
+width:100%;
+height:60%;
+background-image: url('/abada/imagens/Arrecadaçao.jpeg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.icamp H1{
+    padding: 5rem;
+    color:white;
+    text-shadow: 2px 2px 2px #000,-2px 2px 2px #000,2px -2px 2px #000,-2px -2px 2px #000;
+    opacity:80%;
+}
+.textcamp{
+width: 100%;
+height: 40%;
+font-size: medium;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 400;
+}
+.quemsomos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.iquem{
+width:100%;
+height:60%;
+background-image: url('/abada/imagens/Familia-abada.jpeg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.iquem H1{
+    padding: 5rem;
+    color:white;
+    text-shadow: 2px 2px 2px #000,-2px 2px 2px #000,2px -2px 2px #000,-2px -2px 2px #000;
+    opacity:80%;
+}
+.textquem{
+width: 100%;
+height: 40%;
+font-size: medium;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 400;
+}
+}
+
+footer{
+width: 100%;
+height: 6rem;
+align-items: center;
+display: flex;
+flex-direction: column;
+background-color: rgb(170, 168, 168);
+justify-content:space-around;
+text-align: center;
+}
+
+footer i{
+
+color: rgb(27, 185, 27);
+
+}
+
+
+
+
+
+

@@ -1,0 +1,197 @@
+*{
+padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+background-color: rgba(255, 255, 255, 0.993);
+overflow-x: hidden;
+background-color: rgb(52, 53, 52);
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+}
+.headerr{
+text-align: center;
+}
+
+.base img{
+    height:300px;
+    background-size: cover;
+    background-position: center;
+}
+.base{
+margin-top: 60px;
+width: 1000px;
+height: 530px;
+border: white solid 5px;
+display:flex;
+align-content:space-around;
+align-items: center; 
+}
+.h1{
+    font-family: 'Yeseva One', cursive;
+    color: whitesmoke;
+}
+h1::after{
+    content: '';
+    width: 525px;
+    height:3px;
+    background-color:white;
+    display: block;
+    margin: 0 auto;
+}
+
+.h2{
+font-family: 'Yeseva One', cursive;
+color: whitesmoke;
+
+}
+h2::after{
+    content: '';
+    width: 200px;
+    height:3px;
+    background-color:white;
+    display: block;
+    margin: 0 auto;
+}
+
+.caixa1{
+width: 430px;
+height: 520px;
+border:5px solid red;
+background-color: whitesmoke;
+text-align: center;
+margin-right: 60px;
+margin-left: 35px;
+}
+.p1c1{
+    font-family: 'Yeseva One', cursive;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.p2c1{
+    font-family: 'Yeseva One', cursive;
+}
+.bc1{
+cursor: pointer;
+width: 120px;
+border: none;
+background-color: rgb(201, 194, 194);
+
+}
+.caixa2{
+
+    width: 430px;
+    height: 520px;
+    border:5px solid red;
+    background-color:whitesmoke;
+    text-align: center;
+
+}
+.imgcx2{
+
+    width:100%;
+}
+
+
+
+
+
+.f1{
+background-color: rgb(160, 160, 160);
+width: 100vw;
+height: 170px;
+}
+.pat{
+width: 100%;
+height: 70px;
+text-align: center;
+font-family: 'Lilita One', cursive;
+font-weight: 900;
+display: flex;
+flex-direction: column;
+
+}
+.iconepat{
+
+width: 100%;
+height: 100%;
+animation-duration:100s;
+animation-iteration-count: infinite;
+animation-name: patro;
+align-content: flex-start;
+animation-timing-function: ease-out;
+}
+
+.rs{
+    width: 100%;
+    height: 70px;
+display: flex;
+text-align: center;
+
+}
+.r1{
+
+width: 33%;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+.r1 .fa-square-instagram{
+color:#fd5949 ;
+background: white;
+margin-left: 10px;
+margin-top:0;
+cursor: pointer;
+}
+
+
+.r2{
+width: 33%;
+height:100%;
+}
+.r3{
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.r3 .fa-square-whatsapp{
+    color: rgb(47, 202, 16);
+    background-color: white;
+    margin-left: 10px;
+    margin-top:0;
+    cursor: pointer;
+}
+
+
+
+
+.cdes{
+width: 100%;
+height:30px;
+text-align: center;
+align-items: center;
+font-family: 'Lilita One', cursive;
+font-weight: 900;
+font-size: small;
+}
+.pat img{
+    width: 50px;
+    height: 35px;
+}
+
+
+
+
+@keyframes patro{
+
+from{
+transform: translateX(-1000px);
+}
+to{
+transform:translateX(1000px);
+}
+}

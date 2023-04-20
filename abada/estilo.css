@@ -1,0 +1,269 @@
+
+@keyframes animaçao{
+
+from{color:white;}
+to{color:rgb(26, 10, 3); font-size:xx-large;font-weight: bold;}
+}
+
+@keyframes transformar{
+
+
+  0%{
+  transform:translateY(100vh)scale(0);
+
+  }
+
+
+  100%{transform: translateX(0vh)scale(1);
+
+
+  }
+
+}
+
+
+
+
+
+
+body{
+background-color: rgb(228, 118, 15);
+display:flex;
+align-items: center;
+flex-direction: column;
+gap: 10px;
+}
+
+
+hgroup{
+  text-align: center;
+    background:url("imagens/laranja.jpeg");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+font-size:50px;
+font-weight:700px;
+}
+
+h1::after{
+content: " ";
+width: 500px;
+height: 2px;
+background-color: rgb(250, 72, 1);
+display: block;
+margin:10px auto;
+}
+h2{
+font-size:40px;
+font-weight: 700;
+gap: 0%;
+}
+
+h2::after{
+  content: " ";
+  width: 300px;
+  height: 3px;
+  background-color:rgb(250, 72, 1);
+  display: block;
+  margin:10px auto;
+  }
+
+h3{
+
+  font-size:30px;
+  font-weight: 700;
+  padding-top: 0%;
+}
+header{
+  display: flex;
+justify-content:space-around;
+width: 900px;
+height: 80px;
+align-items: center;
+}
+.quem{
+  font-weight: 900;
+font-size: larger;
+font-style: oblique;
+width: 200px;
+height: 60px;
+border-radius: 14px;
+border: 5px solid rgb(196, 56, 14);
+box-shadow: 5px 5px 10px 10px rgb(102, 15, 9);
+cursor: pointer;
+}
+
+.quem:hover{
+
+background-color:rgb(209, 99, 66);
+transition:.3s;
+}
+.campanhas{
+  font-weight: 900;
+  font-size: larger;
+  font-style: oblique;
+  width: 200px;
+  height: 60px;
+  border-radius: 14px;
+  border: 5px solid rgb(196, 56, 14);
+  box-shadow: 5px 5px 10px 10px rgb(102, 15, 9);
+  cursor: pointer;
+}
+
+
+.campanhas:hover{
+
+  background-color:rgb(209, 99, 66);
+  transition:.3s;
+  }
+
+.endereço{
+font-weight: 900;
+  font-size: larger;
+  font-style: oblique;
+  width: 200px;
+  height: 60px;
+  border-radius: 14px;
+  border: 5px solid rgb(196, 56, 14);
+  box-shadow: 5px 5px 10px 10px rgb(102, 15, 9);
+  cursor: pointer;
+}
+.endereço:hover{
+  background-color:rgb(209, 99, 66);
+  transition:.3s;
+  }
+.logosg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 900px;
+height: 500px;
+}
+.logosg img{
+align-items: center;
+width: 700px;
+height: 480px;
+}
+.arte{
+  color: white;
+position:absolute;
+font-size:larger;
+right: 100px;
+bottom: 500px;
+animation-name:animaçao;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+}
+.Cultura{
+  color:white;
+position:absolute;
+font-size:larger;
+left: 300px;
+bottom:100px;
+animation-name:animaçao;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+}
+.luta{
+  color:white;
+  position:absolute;
+  font-size:larger;
+  right: 500px;
+  bottom:350px;
+  animation-name:animaçao;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+}
+.dança{
+  color:white;
+  position:absolute;
+  font-size:larger;
+  left: 500px;
+  bottom:400px;
+  animation-name:animaçao;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+}
+.literatura{
+  color:white;
+  position:absolute;
+  font-size:larger;
+  right: 400px;
+  bottom:0px;
+  animation-name:animaçao;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+}
+
+.historia{
+
+  color:white;
+  position:absolute;
+  font-size:larger;
+  right: 300px;
+  bottom:200px;
+  animation-name:animaçao;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+
+}
+
+.fivida{
+
+  color:white;
+  position:absolute;
+  font-size:larger;
+  left: 100px;
+  bottom:700px;animation-name:animaçao;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+
+}
+
+.conhecimento{
+
+  color:white;
+  position:absolute;
+  font-size:larger;
+  right:400px;
+  bottom:650px;
+  animation-name:animaçao;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+}
+.poesia{
+  color:white;
+  position:absolute;
+  font-size:larger;
+  right:200px;
+  top:120px;
+  animation-name:animaçao;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transition: ease-in-out;
+  
+}
+.musica{
+  color:white;
+  position:absolute;
+  font-size:larger;
+  left:100px;
+  top:550px;
+  animation-name:animaçao;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
