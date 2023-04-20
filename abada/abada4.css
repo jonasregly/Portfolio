@@ -76,7 +76,7 @@ a:link{
     .home{
     width: 99%;
     height:100vh;
-    background-image: url('/abada/imagens/domingo.JPEG');
+    background-image: url('./imagens/domingo.JPEG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -176,7 +176,7 @@ color:white;
     .iquem{
     width:100%;
     height:90%;
-    background-image: url('/abada/imagens/Familia-abada.jpeg');
+    background-image: url('./imagens/Familia-abada.jpeg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,7 +270,7 @@ border-radius: 50%;
 .home{
 width: 100%;
 height:100vh;
-background-image: url('/abada/imagens/domingo.JPEG');
+background-image: url('./imagens/domingo.JPEG');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
@@ -297,7 +297,7 @@ opacity:80%;
 .icamp{
 width:100%;
 height:60%;
-background-image: url('/abada/imagens/Arrecadaçao.jpeg');
+background-image: url('./imagens/campanha/Arrecadaçao.jpeg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -329,7 +329,7 @@ font-weight: 400;
 .iquem{
 width:100%;
 height:60%;
-background-image: url('/abada/imagens/Familia-abada.jpeg');
+background-image: url('./imagens/Familia-abada.jpeg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
