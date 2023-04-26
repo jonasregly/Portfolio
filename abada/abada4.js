@@ -1,5 +1,6 @@
 var carrrossel=document.querySelector('.icamp')
-
+let menu=document.getElementsByClassName('menus')[0]
+let ul=document.querySelector('.menus ul')
 
 let arrimagensc =['url(./imagens/campanha/Arrecadaçao2.jpeg)' ,'url(./imagens/campanha/Arrecadaçao3.jpeg)' ,'url(./imagens/campanha/Arrecadaçao4.jpeg)' ,
 'url(./imagens/campanha/Arrecadaçao5.jpeg)' , 'url(./imagens/campanha/Arrecadaçao6.jpeg)' , 'url(./imagens/campanha/Arrecadaçao7.jpeg)' ,
@@ -41,8 +42,17 @@ contador=arrimagensc.length -1
     carrrossel.style.backgroundPositionY='-150px'   
     }
 
+
     setInterval(() => {
-        avançar();
-        
-        
-        },5000);
+       avançar();
+       
+        },4000);
+
+
+
+
+        function tButton(){
+    menu.classList.toggle('active');
+    ul.classList.toggle('active');
+
+        }
