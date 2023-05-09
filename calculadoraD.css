@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+background-color: rgb(218, 218, 218);
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+height: 40vw;
+border-radius: 13px 13px 40% 13px;
+position: relative;
+background-color:white;
+
+}
+.entrada{
+width: 57vw;
+height: 20vh;
+display: flex;
+gap:5rem;
+align-items: center;
+}
+.diae{
+
+width: 18%;
+height: 77%;
+align-items: center;
+margin-left: 2rem;
+
+}
+
+#idia{
+display: flex;
+flex-direction: column;
+width: 80%;
+height: 50%;
+border-radius: 8px;
+outline: 0;
+border:1px solid rgb(192, 190, 190);
+cursor: pointer;
+text-align: center;
+}
+.diae::before{
+    display:block;
+content: "Dia";
+font-weight: 900;
+font-size: x-large;
+margin-bottom:0.5rem;
+}
+.diae::after{
+display:block;
+    content:var(--afterContentd,'Dia Inválido!');
+    display: var(--afterNoned, none);
+}
+
+.mese{
+
+    width: 18%;
+    height: 77%;
+    align-items: center;
+    }
+    
+    #imes{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+    border-radius: 8px;
+    outline: 0;
+    border:1px solid rgb(192, 190, 190);
+    cursor: pointer;
+    text-align: center;
+    }
+    .mese::before{
+        display:block;
+        content: "mês";
+        font-weight: 900;
+        font-size: x-large;
+        margin-bottom:0.5rem;
+    }
+    .mese::after{
+    display:var(--afterNonem , none);
+        content: "Mês inválido!";
+    }
+
+
+    .anoe{
+        width: 18%;
+        height: 77%;
+        align-items: center;
+        }
+        
+        #iano{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: 50%;
+            border-radius: 8px;
+            outline: 0;
+            border:1px solid rgb(192, 190, 190);
+        cursor: pointer;
+        text-align: center;
+        }
+        .anoe::before{
+            display:block;
+            content: "Ano";
+            font-weight: 900;
+            font-size: x-large;
+            margin-bottom:0.5rem;
+        }
+        .anoe::after{
+        display:var(--afterNonea , none);
+            content: "Ano inválido!";
+        }
+
+        .divisorio{
+display: flex;
+align-items: center;
+        }
+
+.hrebtn{
+
+    width: 43vw;
+    height: 1px;
+    background-color: rgb(209, 209, 209);
+    opacity: 50%;
+}
+#ir{
+width: 80px;
+height: 80px;
+background-color: blueviolet;
+border-radius: 50%;
+}
+
+.saida{
+margin-top: 1rem;
+width: 57vw;
+height: 60%;
+display: flex;
+flex-direction: column;
+gap:1rem;
+}
+.sdias{
+width: 55vw;
+height: 20%;
+display: flex;
+align-items: center;
+font-size:5rem;
+font-weight: 900;
+font-style: italic;
+margin-left: 2rem;
+}
+
+.sdias p{
+color: blueviolet;
+}
+
+
+
+
+.smeses{
+    width: 55vw;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    font-size:5rem;
+font-weight: 900;
+font-style: italic;
+margin-left: 2rem;
+    }
+.smeses p{
+color: blueviolet
+}
+
+    .sanos{
+        width: 55vw;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        font-size:5rem;
+font-weight: 900;
+font-style: italic;
+margin-left: 2rem;
+        }
+        .sanos p{
+
+            color: blueviolet;
+        }
+
+.hrebtn2{
+    display: none;
+}
+
+
+        @media (max-width : 900px){
+
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+        display: flex;
+        background-color: rgb(230, 230, 230);
+        width: 100vw;
+        height:100vh;
+        overflow: hidden;
+        justify-content: center;
+            }
+
+.container{
+    display: flex;
+    flex-direction: column;
+height:80vh;
+width: 80%;
+border-radius: 13px 13px 30% 13px;
+}
+
+.entrada{
+
+    width: 80vw;
+    height: 20vh;
+    display:flex;
+    gap:3rem;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .diae{
+
+        width: 18%;
+        height: 77%;
+        align-items: center;
+        margin-left: 1rem;
+        }
+
+#idia{
+display: flex;
+flex-direction: column;
+width: 80%;
+height: 50%;
+border-radius: 8px;
+outline: 0;
+border:1px solid rgb(192, 190, 190);
+}
+
+.diae::before{
+    display:block;
+content: "Dia";
+font-weight: 900;
+font-size: x-large;
+margin-bottom:0.5rem;
+}
+.diae::after{
+    display:block;
+        content:var(--afterContentd,'Dia Inválido!');
+        display: var(--afterNoned, none);
+    }
+
+.mese{
+
+    width: 20%;
+    height: 77%;
+    align-items: center;
+    }
+    
+    #imes{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+    border-radius: 8px;
+    outline: 0;
+    border:1px solid rgb(192, 190, 190);
+    }
+    .mese::before{
+        display:block;
+        content: "mês";
+        font-weight: 900;
+        font-size: x-large;
+        margin-bottom:0.5rem;
+    }
+    .mese::after{
+        display:var(--afterNonem , none);
+            content: "Mês inválido!";
+        }
+
+    .anoe{
+        width: 20%;
+        height: 77%;
+        align-items: center;
+        }
+        
+        #iano{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: 50%;
+            border-radius: 8px;
+            outline: 0;
+            border:1px solid rgb(192, 190, 190);
+        
+        }
+        .anoe::before{
+            display:block;
+            content: "Ano";
+            font-weight: 900;
+            font-size: x-large;
+            margin-bottom:0.5rem;
+        }
+        .anoe::after{
+            display:var(--afterNonea , none);
+                content: "Ano inválido!";
+            }
+
+        .divisorio{
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+            }
+
+            .hrebtn{
+                width: 31vw;
+                height: 1px;
+                background-color: rgb(209, 209, 209);
+                opacity: 50%;
+            }
+
+#ir{
+width: 60px;
+height: 60px;
+background-color: blueviolet;
+border-radius: 50%;
+}
+.hrebtn2{
+    display: block;
+    width: 31vw;
+    height: 1px;
+    background-color: rgb(209, 209, 209);
+    opacity: 50%;
+}
+
+.saida{
+    margin-top: 1rem;
+    width: 80vw;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    }
+    .sdias{
+        width: 70vw;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        font-size:5rem;
+        font-weight: 900;
+        font-style: italic;
+        margin-left: 2rem;
+        }
+        .sdias p{
+            color: blueviolet;
+            }
+            .smeses{
+                width: 70vw;
+                height: 20%;
+                display: flex;
+                align-items: center;
+                font-size:5rem;
+            font-weight: 900;
+            font-style: italic;
+            margin-left: 2rem;
+                }
+            .smeses p{
+            color: blueviolet
+            }
+            .sanos{
+                width: 70vw;
+                height: 20%;
+                display: flex;
+                align-items: center;
+                font-size:5rem;
+        font-weight: 900;
+        font-style: italic;
+        margin-left: 2rem;
+                }
+                .sanos p{
+        
+                    color: blueviolet;
+                }
+
+
+
+        }
