@@ -184,6 +184,7 @@ var contagem=new Date(nascimento) - new Date(hoje);
     // tranformaçoes dos tipos das variaveis para retornar um numero inteiro e assim obter um resultado assertivo.
     qmeses=parseInt(qmeses);
     qanos=parseInt(qanos);
+    qdias=parseInt(qdias);
 
 
     //solicitaçao da exibiçao do resultado para o usuario.
