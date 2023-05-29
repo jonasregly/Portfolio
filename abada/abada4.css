@@ -111,10 +111,10 @@ header input{
     .icamp{
     width:100%;
     height:100vh;
-    background-image: url(./imagens/campanha/Arrecadaçao.jpeg);
+   background-image: url(./imagens/campanha/Arrecadaçao5.jpeg);
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:unset;
+    background-size:auto;
     border:2px solid rgb(255, 251, 0);
     align-items: center;
     position: relative;

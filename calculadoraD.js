@@ -192,6 +192,9 @@ var contagem=new Date(nascimento) - new Date(hoje);
     smeses.innerText=qmeses
     sanos.innerText=qanos
 
+    sdias="";
+    smeses="";
+    sanos="";
 
    }
 

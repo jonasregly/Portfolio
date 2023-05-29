@@ -19,10 +19,11 @@ if(contador>arrimagensc.length-1){
 }
 
 carrrossel.style.background=arrimagensc[contador];
-carrrossel.style.backgroundSize='container'
+carrrossel.style.backgroundSize='fill'
 carrrossel.style.backgroundPosition='center center'
 carrrossel.style.backgroundRepeat='no-repeat'
 carrrossel.style.backgroundPositionY='-150px'
+carrrossel.style.width="100%"
 
 }
 
@@ -44,7 +45,7 @@ contador=arrimagensc.length -1
 
 
     setInterval(() => {
-       avançar();
+       //avançar();
        
         },4000);
 
